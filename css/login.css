@@ -86,3 +86,42 @@ body{
     width: 25px;
     height: 25px;
 }
+
+/* media queries */
+/* celular */
+@media (max-width: 650px){
+    .login-header h1{
+        font-size: 2.4rem;
+        position: relative;
+        top: -7rem;
+    }
+
+    .login-header h2{
+        font-size: 1.2rem; 
+        position: relative;
+        top: -7rem;
+    }
+
+    .login-form{
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .login-btn, .login-input{
+        margin: 0.5rem;
+    }
+
+    footer{
+        margin-top: -2rem;
+        height: 2.2rem;
+        padding: 1rem;
+    }
+
+    body{
+        background-image: url(../img/cel.png);
+        background-repeat: cover;
+    }
+
+
+}
